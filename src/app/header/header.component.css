@@ -1,0 +1,36 @@
+.heading {
+    margin: 0;
+     font-size: 24px;
+     padding: 30px;
+     color: #fff;
+     font-family: "Poppins", sans-serif;
+   }
+   .heading { background-color: #023e69; }
+   .header h1 {
+     margin: 0; /* Remove default margin */
+     font-size: 24px; /* Set font size */
+   }
+   
+   .forecast-item {
+     padding: 10px; /* Add padding */
+   }
+   
+   .forecast-item h3 {
+     margin: 0; /* Remove default margin */
+     font-size: 18px; /* Set font size */
+     cursor: pointer; /* Change cursor to pointer on hover */
+   }
+ 
+   .btn { background: #023e69;
+     color: #fff;
+     font-size: 18px;
+     padding: 10px 30px;
+     border-radius: 50px;
+     font-family: "Poppins", sans-serif; cursor: pointer; margin-right: 20px;}
+ 
+     .btn:hover { background-color: #0890cf; }
+     .mt-4 { margin-top: 20px;}
+   
+     .ActiveLinkBgColor {
+        background-color:#0890cf;
+     }

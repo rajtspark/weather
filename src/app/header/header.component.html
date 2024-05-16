@@ -1,0 +1,10 @@
+<div class="header">
+    <div class="heading">
+    <h1 class="Pointer" (click)="goToDefaultPath()">Weather Forecast</h1>
+  </div>
+  <h2 style="margin-left: 20px;">Select any city to see the weather forecast.</h2>
+    <div class="forecast-item mt-4">
+      <a  [routerLink]="'weather/LWX'" [routerLinkActive]="'ActiveLinkBgColor'" class="Pointer btn">District of Columbia (LWX) Forecast</a>
+      <a  [routerLink]="'weather/TOP'" [routerLinkActive]="'ActiveLinkBgColor'" class="Pointer btn">Kansas (TOP) Forecast</a>
+    </div>
+  </div>
